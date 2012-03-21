@@ -1,0 +1,28 @@
+@bgcolor: #fda;
+@hcolor: #c60;
+
+.roundbox (@radius: 6px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+body {
+	background-color: @bgcolor;
+}
+a {
+	color: #06f;
+}
+h1,h2,h3 {
+	padding: 4px 14px;
+	.roundbox;
+}
+h1 {
+	background-color: @hcolor;
+}
+h2 {
+	background-color: darken(@hcolor, 20%);
+	color: @bgcolor;
+}

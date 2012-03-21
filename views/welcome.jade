@@ -1,0 +1,35 @@
+!!! 5
+html
+  head
+    meta(http-equiv='content-type', content='text/html; charset=utf-8')
+    link(rel="stylesheet/less", type="text/css", href="/css/welcome.less")
+    script(src="/js/less.min.js", type="text/javascript")
+    title Slim driven by jade.php
+  body
+    h1 Welcome to Slim+Jade
+
+    h2 What? 
+    p This is a boilerplate. It's the
+      a(href="http://www.slimframework.com/") Slim Framework 
+      | with
+      a(href="https://github.com/everzet/jade.php") jade.php
+      | to render views
+
+    h2 Why?
+    p I like the Sinatra style MVC and love 
+      a(href="http://jade-lang.com/") Jade. 
+    p I prefer to use Node and Express, but needed to bang out something 
+      | quick and I'm more proficient in PHP. So, Slim+Jade was born.
+
+    h2 How?
+
+    ol
+      li git clone ...
+      li cd slimjade/vendor
+      li git clone https://github.com/everzet/jade.php.git
+      li git clone https://github.com/codeguy/Slim.git
+
+    p Files of import:
+    ul
+      - foreach ($files as $k => $item)
+        li {{$item}}
