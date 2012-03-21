@@ -1,4 +1,4 @@
-Welcome to Slim+Jade
+Welcome to Slim-Jade
 ===
 
 What?
@@ -16,8 +16,8 @@ I prefer to use Node and Express, but needed to bang out something quick and I'm
 How?
 ---
 
-1. git clone ...
-2. cd slimjade/vendor
+1. git clone git@github.com:w33ble/slim-jade.git
+2. cd slim-jade/vendor
 3. git clone https://github.com/everzet/jade.php.git
 4. git clone https://github.com/codeguy/Slim.git
 
