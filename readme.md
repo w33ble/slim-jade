@@ -11,7 +11,7 @@ Why?
 
 I like the Sinatra style MVC and love [Jade](http://jade-lang.com/).
 
-I prefer to use Node and Express, but needed to bang out something quick and I'm more proficient in PHP. So, Slim+Jade was born.
+I prefer to use Node and Express, but needed to bang out something quick and I'm more proficient in PHP. So, Slim-Jade was born.
 
 How?
 ---
