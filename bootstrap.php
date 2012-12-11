@@ -8,6 +8,9 @@ define('ROOT', realpath(__DIR__).'/');
 
 //include libraries
 require_once ROOT . 'vendor/Slim/Slim/Slim.php';
+
+\Slim\Slim::registerAutoloader(); /* Need to run the Autoloader before JadeView can load */
+
 #require_once ROOT . 'lib/JadeHandler.class.php';
 require_once ROOT . 'lib/JadeView.php';
 
@@ -16,7 +19,7 @@ define('SLIM_MODE', 'development');
 JadeView::$jadeDirectory = ROOT . 'vendor/jade.php/';
 JadeView::$jadeTemplateDirectory = ROOT . 'views/';
 
-$app = new Slim(array(
+$app = new \Slim\Slim(array(
     'mode' => SLIM_MODE,
     'log.path' => ROOT . 'logs',
     'view' => 'JadeView',

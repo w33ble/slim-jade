@@ -16,7 +16,7 @@
  * @package Slim
  * @author  Joe Fleming <http://joefleming.net>
  */
-class JadeView extends Slim_View {
+class JadeView extends \Slim\View {
 	/**
      * @var string The path to the Twig code directory WITHOUT the trailing slash
      */
