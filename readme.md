@@ -25,3 +25,5 @@ Files of import:
 
 - bootstrap.php : All the app configuration happens here
 - index.php : All your routes live here
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/w33ble/slim-jade/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
